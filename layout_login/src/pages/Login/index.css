@@ -1,0 +1,95 @@
+.container h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 20px;
+}
+
+form {
+    padding: 30px;
+}
+
+.box {
+    margin-bottom: 30px;
+}
+
+.container-label {
+    color: white;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-input input {
+    width: 300px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+}
+
+.container-input input[type="password"] {
+    width: 230px;
+}
+
+.container-input button {
+    width: 70px;
+    outline: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    box-shadow: 5px 5px 10px black;
+    transition: all 0.5s;
+}
+
+.container-input button:hover {
+    transform: translateX(5px);
+    box-shadow: 0px 0px 10px white;
+}
+
+.container-input input::placeholder {
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.text-cad {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+}
+
+.text-cad  a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.381);
+    text-align: center;
+}
+
+.sucesso {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    background-color: rgba(255, 255, 255, 0.38);
+    text-align: center;
+}
+
+.loading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#btn-cad {
+    width: 80px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+.container--home {
+    width: 40%;
+    height: 100vh;
+    background-color: green; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .container--home {
+        width: 100%;
+    }
+}

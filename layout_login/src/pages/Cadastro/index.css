@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.container {
+    background-color: green;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-logo-afs {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.button {
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.button a:hover {
+    text-shadow: 0px 0px 10px #fff;
+}
